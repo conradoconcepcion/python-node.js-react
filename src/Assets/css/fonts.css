@@ -1,0 +1,70 @@
+@font-face {
+	font-family: 'cconcepcion';
+	src: url('../fonts/icons.eot?f69i5w');
+	src: 
+		url('../fonts/icons.woff?f69i5w') format('woff'),
+		url('../fonts/icons.ttf?f69i5w') format('truetype'),
+		url('../fonts/icons.svg?f69i5w#icons') format('svg'),
+		url('../fonts/icons.eot?f69i5w#iefix') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	speak: none;
+	line-height: 1;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-family: 'cconcepcion' !important;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+.icon-lock:before {
+	content: "\e90a";
+}
+.icon-user:before {
+	content: "\e905";
+}
+.icon-times:before {
+ 	content: "\e90b";
+}
+.icon-world:before {
+ 	content: "\e908";
+}
+.icon-sort-up:before {
+ 	content: "\e907";
+}
+.icon-envelope:before {
+	content: "\e909";
+}
+.icon-sort-down:before {
+ 	content: "\e906";
+}
+.icon-hand-money:before {
+ 	content: "\e904";
+}
+.icon-angle-left:before {
+ 	content: "\e901";
+}
+.icon-angle-right:before {
+	content: "\e900";
+}
+.icon-credit-card:before {
+ 	content: "\e903";
+}
+.icon-arrow-up-circle:before {
+ 	content: "\e902";
+}
+
+
+/* Slim Icons */
+.icon-lock-slim:before {
+	content: "\e90e";
+}
+.icon-email-slim:before {
+ 	content: "\e90d";
+}
